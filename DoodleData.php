@@ -1,7 +1,7 @@
 <?php
 /**
 * @author decima
-*
+* The purpose of the doodleData class is to generate all the xml datas used to create/update informations on Doodle
 */
 class DoodleData {
 
