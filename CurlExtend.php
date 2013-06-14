@@ -1,6 +1,8 @@
 <?php
-/*Author : decima*/
-
+/**
+* @author decima
+*
+*/
 class CurlExtend {
 
     protected function encode_rfc3986($input) {
