@@ -1,5 +1,8 @@
 <?php
-
+/**
+* @author decima
+*
+*/
 require_once 'CurlExtend.php';
 require_once 'DoodleData.php';
 class DoodleAPI extends CurlExtend {
