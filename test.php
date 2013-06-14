@@ -1,4 +1,8 @@
 <?php
+/**
+* @author decima
+*
+*/
 /* Please EDIT THE CONSTANTS*/
 define("DOODLE_API_KEY","YOURDOODLEAPIKEY");
 define("DOODLE_API_SECRET","YOURDOODLEAPISECRET");
