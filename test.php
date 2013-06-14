@@ -1,5 +1,8 @@
 <?php
-ini_set('display_errors', '1');
+/* Please EDIT THE CONSTANTS*/
+define("DOODLE_API_KEY","YOURDOODLEAPIKEY");
+define("DOODLE_API_SECRET","YOURDOODLEAPISECRET");
+
 require_once 'DoodleAPI.php';
 
 /* Specify your datas */
@@ -32,7 +35,7 @@ $write_participant3 = DoodleData::writeAnswer("user_42", array(0, 0, 0));
 <textarea><?php echo $poll; ?></textarea>
 <br/>
 <?php
-$dapi = new DoodleAPI("vcxlgj6enaprf3iilj1pgqvamg2rtrbj", "pq8beypq6ze68jfjrfdo5zguzalw6kzo");
+$dapi = new DoodleAPI(DOODLE_API_KEY, DOODLE_API_SECRET);
 ?>
 
 <b>Create a Poll</b><br/>
