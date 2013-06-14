@@ -1,7 +1,7 @@
 <?php
 /**
 * @author decima
-*
+* This class offers access to simplify Curl use
 */
 class CurlExtend {
 
