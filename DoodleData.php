@@ -1,5 +1,8 @@
 <?php
-
+/**
+* @author decima
+*
+*/
 class DoodleData {
 
     const XMLNS = "http://doodle.com/xsd1";
